@@ -61,6 +61,7 @@ Public Class Video
     ''' </summary>
     ''' <param name="filepath"></param>
     Private Sub GetVideoProperties(filepath As String)
+        Dim info = FfmpegAPI.GetVideoInfo(filepath)
         ''TODO: Implement logic to extract video properties such as resolution, bitrate, duration, etc.
     End Sub
 

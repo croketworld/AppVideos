@@ -52,6 +52,7 @@ Public Class Audio
     ''' <param name="filepath"></param>
     Private Sub GetAudioProperties(filepath As String)
         ''TODO: Implement logic to extract audio properties such as bitrate, duration, etc.
+        Dim info = FfmpegAPI.GetVideoInfo(filepath)
     End Sub
 
     ''' <summary>
