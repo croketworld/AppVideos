@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="AppVideos/AppVideos.vbproj" />
+  <Project Path="LibVideos/LibVideos.vbproj" />
+</Solution>
