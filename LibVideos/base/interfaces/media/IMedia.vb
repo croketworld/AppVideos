@@ -24,7 +24,7 @@ Public Interface IMedia
     ''' Gets or sets the thumbnail image of the media.
     ''' </summary>
     ''' <returns></returns>
-    Property Thumbnail As IImage
+    Property Thumbnail As IContent
 
 
 End Interface

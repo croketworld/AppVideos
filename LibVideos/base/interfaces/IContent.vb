@@ -3,7 +3,7 @@
 ''' </summary>
 Public Interface IContent
     Inherits ICreatable
-    Inherits IIdentifiable
+    Inherits IIdentifiable(Of Integer)
     Inherits IDescriptible
     Inherits ISizeable
     Inherits IPatheable
